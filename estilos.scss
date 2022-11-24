@@ -70,6 +70,26 @@ header a{
 .barra{
     float: right;
 }
+.barra {
+    float: right;
+  }
+  .barra ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+    word-spacing: 10px;
+  }
+  .barra ul li{
+    display: inline-block;
+  }
+  .barra a{
+    text-decoration: none;
+    color: rgb(19, 18, 18)
+  }
+  .barra a:hover{
+    color: rgb(19, 18, 18);
+    text-decoration: underline;
+  }
 
 .contacto2{
     height: 80px;
@@ -210,9 +230,8 @@ h2{
 }
 
 .item1:hover{
-            width: 100px;
-            height: 100px;
-            transform: scale(3)
+            
+            transform: scale(1.1)
 }
 .item2{
     background-image: url(media/item2.jpg);
@@ -222,9 +241,7 @@ h2{
     object-fit: cover;
 }
 .item2:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 
 .item3{
@@ -235,9 +252,7 @@ h2{
     object-fit: cover;
 }
 .item3:hover{
-    width: 30vh;
-    height: 30vh;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 .item4{
     background-image: url(media/item4.jpg);
@@ -247,9 +262,8 @@ h2{
     object-fit: cover;
 }
 .item4:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    
+    transform: scale(1.1)
 }
 .item5{
     background-image: url(media/item5.jpg);
@@ -259,9 +273,7 @@ h2{
     object-fit: cover;
 }
 .item5:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 .item6{
     background-image: url(media/item6.jpg);
@@ -271,9 +283,7 @@ h2{
     object-fit: cover;
 }
 .item6:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 .item7{
     background-image: url(media/item7.jpg);
@@ -283,9 +293,7 @@ h2{
     object-fit: cover;
 }
 .item7:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 .item8{
     background-image: url(media/item8.jpg);
@@ -295,9 +303,7 @@ h2{
     object-fit: cover;
 }
 .item8:hover{
-    width: 100px;
-    height: 100px;
-    transform: scale(2)
+    transform: scale(1.1)
 }
 .mapa{
         margin-top: auto;
